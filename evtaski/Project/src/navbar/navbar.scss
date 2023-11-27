@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+
+    .logo {
+        width: 55%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 20px;
+            color: #1fa67a;
+        }
+    }
+
+    .navbarBtns {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: start;
+
+        .btnUl {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            height: 100%;
+            .HomeLi{
+                background-color: #1fa67a;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            li {
+                font-size: 13px;
+                height: 100%;
+                padding: 0px 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.3s;
+               
+                a{
+                    text-decoration: none;
+                    color: gray;
+                }
+                .aboutLi{
+                   
+                
+                .aboutUl{
+                    
+                    display: none;
+                    background-color: red;
+                    
+                    a{
+                        display: flex;
+                       width: 100%;
+                       padding: 15px 5px;
+                       gap: 5px;
+                    }
+                }
+                }
+                .aboutLi:hover .aboutUl{
+                    display: block;
+                }
+            }
+            li:hover{
+                background-color: #1fa67a;
+                cursor: pointer;
+                transition: 0.3s;
+               
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+
+            }
+        }
+    }
+}
